@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin:15px;
+  background-color: darkblue;
+  font-size: 25px;
+  color: white;
+  /* background: 0px 0px url(kare1.jpg) repeat; */
+  background-size: 4%;
+  /* animation: scroll 5s ease-in-out infinite alternate; */
+
+}
+
+p{
+
+}
+
+img {
+
+max-width: 400px;
+width: 100%;
+}
+
+.w {
+    animation: scroll 5s ease-in-out infinite alternate;
+    background: 0px 0px url(kare1.jpg) repeat;
+
+}
+
+.b {
+    animation: scroll 5s ease-in-out infinite alternate;
+    background: 0px 0px url(kare2.jpeg) repeat;
+
+}
+.wave {
+    height: 5vh;
+    width: 10vw;
+    /* background: 0px 0px url(kare1.jpg) repeat; */
+    background-size: 25% 100%;
+    display: inline-block;
+
+}
+@keyframes scroll {
+      0% {background-position: 0 5vh;}
+      100% {background-position: 0 0;}
+    }
