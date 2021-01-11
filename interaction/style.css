@@ -1,0 +1,84 @@
+body {
+  background:rgb(173, 204, 186);
+  font-family: congenial-light, sans-serif;
+  margin: 5em 5em 5em 5em;
+  font-size: 20;
+}
+
+p {
+  font-size: 30px;
+
+}
+img {
+  max-width: 600px;
+  max-height: 400px;
+}
+
+.special{
+  color:rgb(149, 180, 223);
+  font-style: italic;
+  display: inline;
+  cursor: cell;
+}
+
+.special-img {
+  position:absolute;
+  display:none;
+  opacity: 0:
+  transition: opacity 1s ease;
+}
+.special:hover {
+  color:rgb(51, 145, 133);
+
+}
+
+.one {
+  top:300px;
+  left:300px;
+}
+
+.two {
+  bottom:100px;
+  right:200px;
+}
+
+.show-text {
+  background:rgb(57, 102, 88);
+  width:100px;
+  height:50px;
+  cursor:help;
+}
+
+.special:hover .special-img {
+display: block;
+}
+.special-span {
+  position: absolute;
+  bottom: 100px;
+  right: 200px;
+  opacity: 0;
+}
+
+.special:hover .special-span {
+  opacity: 1;
+}
+.object {
+background: blue;
+width: 200px;
+height: 200px;
+border-radius: 50%;
+position: absolute;
+top: 500px;
+left: 600px;
+transition: all 2s ease,
+            background 1s ease,
+            transform 1s ease;
+            cursor:
+}
+.object:hover {
+  border-radius: 0;
+  background: rgb(79, 244, 109);
+  transform: scale (4);
+
+
+}
