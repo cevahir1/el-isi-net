@@ -4,10 +4,11 @@
 
 body {
   margin:15px;
-  background-color: darkblue;
-  font-size: 25px;
+  background-color: darkblue
+  ;
+  font-size: 20px;
   color: white;
-  /* background: 0px 0px url(kare1.jpg) repeat; */
+  /* background: 0px 0px url(kare3.jpg) repeat; */
   background-size: 4%;
   /* animation: scroll 5s ease-in-out infinite alternate; */
 
@@ -26,19 +27,19 @@ width: 100%;
 
 .w {
     animation: scroll 5s ease-in-out infinite alternate;
-    background: 0px 0px url(kare1.jpg) repeat;
+    background: 0px 0px url(kare3.jpg) repeat;
 
 }
 
 .b {
     animation: scroll 5s ease-in-out infinite alternate;
-    background: 0px 0px url(kare2.jpeg) repeat;
+    background: 0px 0px url (kare4.jpeg) repeat;
 
 }
 .wave {
     height: 5vh;
     width: 10vw;
-    /* background: 0px 0px url(kare1.jpg) repeat; */
+    /* background: 0px 0px url(kare3.jpg) repeat; */
     background-size: 25% 100%;
     display: inline-block;
 
