@@ -23,6 +23,7 @@ max-width: 400px;
 width: 100%;
 }
 
+
 .w {
     animation: scroll 5s ease-in-out infinite alternate;
     background: 0px 0px url(kare1.jpg) repeat;
