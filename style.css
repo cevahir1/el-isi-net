@@ -8,7 +8,7 @@ body {
 ul {
   margin-block-start: 1em;
   padding-inline-start: 1em;
-  list-style-type: '☁';
+  list-style-type:decimal-leading-zero;
 }
 
 li {
@@ -22,4 +22,12 @@ a {
 
 a:hover {
   background:white;
+}
+
+.papatya marquee {
+  height: 100px;
+}
+.mama-1{
+
+  -webkit-animation: marquee 70s linear infinite;
 }
