@@ -75,7 +75,7 @@ body {
 0% {background: blue;
   transform: scale(1);
 }
-100% {background: lightgreen;
+100% {background: white;
   transform: scale(2);
 }
 }
