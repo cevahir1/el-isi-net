@@ -1,5 +1,5 @@
 body {
-  background: white;
+  background: black;
   font-family: congenial-light, sans-serif;
   margin: 3em 4em 4em 4em;
   font-size: 11;
@@ -23,6 +23,15 @@ a {
 a:hover {
   background:white;
 }
+
+.dot {
+  width: 1px;
+  height: 1px;
+  background-color: white;
+  position: absolute;
+  z-index: -1;
+}
+
 
 .papatya marquee {
   height: 100px;
