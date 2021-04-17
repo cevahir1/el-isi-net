@@ -16,7 +16,7 @@ li {
 }
 
 a {
-  color:black;
+  color: white;
   text-decoration: none;
 }
 
@@ -24,13 +24,6 @@ a:hover {
   background:white;
 }
 
-.dot {
-  width: 1px;
-  height: 1px;
-  background-color: white;
-  position: absolute;
-  z-index: -1;
-}
 
 
 .papatya marquee {
