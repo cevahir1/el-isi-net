@@ -11,7 +11,7 @@ body {
   display:flex;
 }
 .half {
-  background: pink;
+  background: darkgreen;
   width: 50%;
   height:100%;
   display:flex;
@@ -20,7 +20,7 @@ body {
 
 }
 .circle {
-  background: blue;
+  background: white;
   width: 200px;
   height: 200px;
   border-radius:50%;
