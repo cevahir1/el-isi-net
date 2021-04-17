@@ -72,7 +72,7 @@ body {
  }
 @keyframes pulse {
 
-0% {background: blue;
+0% {background: lightyellow;
   transform: scale(1);
 }
 100% {background: white;
